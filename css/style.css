@@ -1,0 +1,94 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.header,
+.header .navbar {
+  background: #29374e;
+}
+
+.header {
+  z-index: 20;
+}
+
+.header .navbar .navbar-item,
+.header .navbar .navbar-link {
+  color: #8fa0bd;
+}
+
+.header .navbar a.navbar-item:hover,
+.header .navbar a.navbar-link:hover {
+  background: none;
+  color: #e95513;
+}
+
+.navbar-burger {
+  color: #fafafa;
+  cursor: pointer;
+}
+
+.navbar-burger:hover {
+  color: #fafafa;
+  cursor: pointer;
+}
+
+.phone,
+.mail {
+  font-size: 1.05em;
+  color: white;
+}
+
+.phone:hover,
+.mail:hover {
+  color: #e95513;
+}
+
+.phone > i,
+.mail > i {
+  padding-right: 10px;
+}
+
+.hero-body.video {
+  padding: 0;
+}
+
+.video_block {
+  position: relative;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 90vh;
+  overflow: hidden;
+}
+
+.info {
+  margin-top: 10px;
+}
+
+.button {
+  margin: 5px;
+}
+
+.download {
+  font-size: 14px;
+}
+
+h4.title.is-4 {
+  font-size: 17px;
+  margin: 10px;
+}
+
+.price {
+  font-size: 24px;
+  padding: 15px;
+  text-align: right;
+}
+
+.bg1 {
+  background-image: url("../image/bg-01.jpg");
+  background-size: cover;
+}
+
+.bg2 {
+  background: #d6dde3;
+}
+/*# sourceMappingURL=style.css.map */
