@@ -91,4 +91,13 @@ h4.title.is-4 {
 .bg2 {
   background: #d6dde3;
 }
+
+.item {
+  padding: 5px;
+  width: 100%;
+}
+
+.item > img {
+  height: 450px;
+}
 /*# sourceMappingURL=style.css.map */
